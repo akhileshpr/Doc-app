@@ -34,7 +34,7 @@ function Quill() {
     });
 
   };
-  return <div><ReactQuill theme="snow" onChange={handleChange} /></div>;
+  return <div><ReactQuill value={singleData[0]?.description} theme="snow" onChange={handleChange} /></div>;
 }
 
 export default Quill;
