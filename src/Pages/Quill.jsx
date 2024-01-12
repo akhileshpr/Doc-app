@@ -34,7 +34,7 @@ function Quill() {
     });
 
   };
-  return <div><ReactQuill theme="snow" onChange={handleChange} /></div>;
+  return <div>123</div>;
 }
 
 export default Quill;
