@@ -124,9 +124,9 @@ function Doc() {
                     <div className="d-flex justify-content-between">
                       {i.title}
                       <div>
-                        <a href={`editDoc/${i?.id}`}>
+                        <Link href={`editDoc/${i?.id}`}>
                           <i class="fa-solid fa-pen-to-square"></i>
-                        </a>
+                        </Link>
                         <i class="fa-solid fa-trash m-2"></i>
                       </div>
                     </div>

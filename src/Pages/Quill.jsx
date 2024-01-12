@@ -1,5 +1,5 @@
 import { collection, getDocs, setDoc, doc } from "firebase/firestore";
-// import ReactQuill from "react-quill";
+import ReactQuill from "react-quill";
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { db } from "../config/firebase";
@@ -34,7 +34,7 @@ function Quill() {
     });
 
   };
-  return <div>123</div>;
+  return <div><ReactQuill theme="snow" onChange={handleChange} /></div>;
 }
 
 export default Quill;
