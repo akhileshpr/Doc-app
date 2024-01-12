@@ -130,7 +130,7 @@ function Doc() {
                         <i class="fa-solid fa-trash m-2"></i>
                       </div>
                     </div>
-                    {i?.description}
+                    <div dangerouslySetInnerHTML={{ __html: i?.description }} />
                   </Typography>
                 </CardContent>
               </Card>
